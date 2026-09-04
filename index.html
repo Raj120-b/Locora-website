@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LOCORA</title>
+<style>
+body{margin:0;font-family:Arial;background:#f5f6fa;color:#172033}
+header{background:#111827;color:white;padding:20px;text-align:center}
+.logo{font-size:28px;font-weight:bold}
+.hero{text-align:center;padding:55px 20px;background:#eef2ff}
+h1{font-size:40px;margin:10px}
+p{color:#5b6475;font-size:17px}
+button,.btn{background:#4f46e5;color:white;border:0;padding:13px 20px;border-radius:9px;text-decoration:none;display:inline-block;margin:6px}
+section{padding:35px 7%}
+h2{text-align:center}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
+.card{background:white;padding:22px;border-radius:14px;text-align:center;box-shadow:0 3px 12px #0001}
+.shop{text-align:left}
+footer{background:#111827;color:white;text-align:center;padding:25px}
+input{padding:14px;width:75%;border:1px solid #ddd;border-radius:8px}
+</style>
+</head>
+<body>
+
+<header><div class="logo">LOCORA</div>
+Your Local Market, One Tap Away</header>
+
+<div class="hero">
+<h1>Find Local. Shop Local.</h1>
+<p>Discover nearby shops, products and services in one place.</p>
+<a class="btn" href="#shops">Explore Shops</a>
+<a class="btn" href="#add">Add Your Shop</a>
+</div>
+
+<section>
+<h2>What are you looking for?</h2>
+<center><input placeholder="Search shops or products..."></center>
+<br>
+<div class="grid">
+<div class="card">🛒<br><b>Grocery</b></div>
+<div class="card">👕<br><b>Fashion</b></div>
+<div class="card">📱<br><b>Electronics</b></div>
+<div class="card">🍔<br><b>Food</b></div>
+<div class="card">🏠<br><b>Home</b></div>
+<div class="card">🚗<br><b>Auto</b></div>
+</div>
+</section>
+
+<section id="shops">
+<h2>Featured Local Shops</h2>
+<div class="grid">
+<div class="card shop"><h3>Sharma General Store</h3>
+<p>Daily needs • Nearby</p><a class="btn" href="#">Contact</a></div>
+<div class="card shop"><h3>City Fashion</h3>
+<p>Clothes • Accessories</p><a class="btn" href="#">Contact</a></div>
+<div class="card shop"><h3>Digital Point</h3>
+<p>Mobiles • Accessories</p><a class="btn" href="#">Contact</a></div>
+</div>
+</section>
+
+<section id="add">
+<div class="card">
+<h2>Add Your Shop</h2>
+<p>Join LOCORA and let nearby customers discover your business.</p>
+<a class="btn" href="mailto:locora@example.com">Add My Shop</a>
+</div>
+</section>
+
+<footer>© 2026 LOCORA • Local Marketplace</footer>
+
+</body>
+</html>
